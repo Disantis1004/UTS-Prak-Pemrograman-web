@@ -1,0 +1,465 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+#home {
+    height: 130vh;
+    width: 100%;
+    background-color:#50f105;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 8%;
+    padding-left: 8%;
+    background-color: #ff1180;
+    border-bottom: 1px solid bisque;
+}
+.logo{
+    color:white ;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color:white;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a {
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+nav ul a:hover{
+    color:red;
+    transition: 0.5s;
+}
+.btn{
+    background-color: #FDAE84;
+    color: white;
+    border: 2px solid white;
+    font-weight: bold;
+    pading: 15px 15px;
+    border-radius: 30px;
+    transition: transform .5s;
+}
+.btn:hover{
+    transform: scale(1.2);
+    border: 3px solid orange;
+    background-color: transparent;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+#search-input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+
+#location-select, #skill-select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+
+#search-button {
+  padding: 8px 16px;
+  background-color: #508bfc;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#search-button:hover {
+  background-color: #376ac9;
+}
+
+
+.image{
+    width: 50%;
+    height: 90%;
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+    transform: rotateY(180deg);
+}
+.image img{
+    height: 50%;
+    width: 50%;
+    position: absolute;
+    bottom: 0;
+    right: 23%;
+    transform: translateX(20%);
+}
+.content {
+    position: absolute;
+    top:70%;
+    left: 10%;
+    transform: translateY(0%);
+}
+h4{
+    color: #3c2e3d;
+    letter-spacing: 2px;
+    font-size:35px;
+}
+h1{
+    color:palevioletred;
+    font-size: 35px;
+    margin: 20px  0 20px;
+}
+h3{
+    color: #3c2e3d;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+.content a{
+    font-size: 20px;
+    background:palevioletred;
+    color: white;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 30px ;
+    border: 2px solid pink;
+    transition: .5s;
+}
+.content a:hover{
+    background: palevioletred;
+    border: 2px solid #3c2e3d;
+}
+.Daftar{
+    height: 130vh;
+    width: 100%;
+    background-color:#ff2ca0;
+}
+.Daftar-loker {
+    width:1130px;
+    max-width: 100%;
+    margin:0 auto;
+    display:flex;
+    align-items:center;
+    justify - content:space-around;
+}
+.talent{
+    max-width: 1300px;
+    margin: auto;
+    width: 100%;
+    min-height: 640px;
+    display: flex;
+    background: url(../image/about.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.heading{
+    text-align: center;
+    position: absolute;
+    margin-top: 0;
+    margin-left: 38%;
+}
+.heading h2{
+    margin: auto;
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 50%;
+    font-size: 1.5rem;
+}
+
+
+.btnorder1{
+    border-radius: 10px;
+    padding: 7px 15px;
+    background-color: #9C07E2;
+    color: white;
+    font-weight: 400;
+    margin-top: 5px;
+    display: inline-block;
+    text-decoration: none;
+}
+.btnorder1:hover{
+    background: #ECB9EDFC;
+    color: black;
+}
+
+.part-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.part-container .box{
+    flex: 1 1 17rem;
+    position: relative;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background: #f6f6f6;
+    border-radius: 0.5rem;
+}
+.part-container .box img{
+    width: 100%;
+    height: 150px;
+    object-fit: contain;
+    object-position: center;
+    margin-bottom: 1rem;
+}
+.part-container .box h3{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.part-container .box span{
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--main-color);
+}
+.part-container .box .bx{
+    color: var(--main-color);
+    margin: 0.8rem 0;
+}
+.part-container .box .btnorder1{
+    max-width: 120px;
+}
+.part-container .box .details{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 1.8rem;
+    right: 1rem;
+    font-size: 1rem;
+    color: var(--text-color);
+    text-decoration: none;
+}
+.part-container .box .details:hover{
+    color: var(--main-color);
+    text-decoration: underline;
+}
+
+/* Gaya-gaya CSS Anda di sini */
+.card {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .form-outline {
+    position: relative;
+  }
+  
+  .form-control {
+    font-size: 1rem;
+    border-radius: 0.5rem;
+  }
+  
+  .form-label {
+    position: absolute;
+    top: -1.5rem;
+    left: 0.5rem;
+    background-color: white;
+    padding: 0 0.25rem;
+  }
+  
+  .form-check-label {
+    margin-left: 1.5rem;
+  }
+  
+  .btn-primary {
+    border-radius: 0.5rem;
+  }
+  
+  /* Gaya-gaya untuk tombol Google dan Facebook */
+  .btn-google {
+    background-color: #dd4b39;
+  }
+  
+  .btn-facebook {
+    background-color: #3b5998;
+  }
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .Template {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #cefc50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #f595f5;
+  }
+  
+  /* Styles for CV template section */
+  .Template {
+    background-color: #d3fcd9;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  /* Styles for job requirements section */
+  .job-requirements {
+    background-color: #ff63f2;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  ul {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+    
+  footer {
+    background-color: #000000;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  footer p {
+    margin-bottom: 10px;
+    color: #f6f6f6;
+  }
+  
+  footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  footer ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  footer ul li a {
+    text-decoration: none;
+    color: #faf7f7;
+    
+  }
+  
+  footer ul li a:hover {
+    text-decoration: underline;
+  }
+  .container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.job-application {
+  border: 1px solid #ffffff;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.job-details h2 {
+  margin-top: 0;
+}
+
+.applicant-details h3 {
+  margin-top: 0;
+}
+
+.actions {
+  margin-top: 20px;
+}
+
+.notification {
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.job-application {
+  border: 1px solid hsl(0, 100%, 69%);
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #f7afe5;
+}
+
+.job-details h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+.applicant-details h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.actions {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.actions button {
+  padding: 10px 20px;
+  background-color: hsl(130, 100%, 56%);
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.notification {
+  border: 1px solid #491515;
+  padding: 20px;
+  background-color: hsl(180, 6%, 36%);
+}
+
+.notification h3 {
+  color: #333;
+}
+
+.notification p {
+  color: #fde1e1;
+}
